@@ -1,0 +1,96 @@
+.navbar-brand{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;   
+    filter: drop-shadow(4px 4px 8px #575656);
+}
+.container{
+    padding-right: 1PX;
+    padding-left: 1PX;
+}
+.navbar-toggler{
+    line-height:0px;
+    border: revert-layer;
+}
+.navbar{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-radius: 0px;
+}
+.navbar-toggler{
+    margin-right: 10px;
+}
+#h6{
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: medium;
+    margin-bottom: 15px;
+  }  
+#h1{
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+.banner_main{
+    background-image: url(/portfolio/banner.jpeg);
+    padding: 100px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    filter: drop-shadow(4px 4px 8px #575656);
+}
+.btn {
+        font-family: "Briem Hand", cursive;
+        font-optical-sizing: auto;
+        font-weight:30px;
+        font-style:normal;
+  }
+.about{
+    background-color: #40abbe; 
+    filter: drop-shadow(30px 20px 10px #575656);
+}
+.skills{
+    background-color:#63cedf ;
+}
+.card{
+    border: 0px;
+    background-color:#63cedf ;
+}
+.Services{
+    background-color: #87dbe9;
+}
+.Services_container{
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.Services_Provind{
+    width: 579px;
+    padding: 0px; 
+}
+.html{
+    filter: drop-shadow(4px 4px 8px #575656);
+}
+.contact{
+    background-color: #8ce4ff;
+}
+.signature{
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+    padding-left: 50px;
+    
+}
+.footer{
+    background-color: #004b6a;
+    
+}
