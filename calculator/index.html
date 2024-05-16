@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link href="/calculator/style.css" rel="stylesheet"/>
+</head>
+<body>
+   <div id="main">
+    <h1>calaulator</h1>
+    <input type="text" id="display">
+    <div id="buttons">
+        <button onclick="clearDisplay()" id="btn">c</button>
+        <button onclick="cal(')')"id="btn">)</button>
+        <button onclick="cal('(')"id="btn">(</button>
+        <button onclick="cal(9)"id="btn">%</button>
+        <div id="inbtn">
+            <button onclick="cal(7)"id="btn">7</button>
+            <button onclick="cal(8)"id="btn">8</button>
+            <button onclick="cal(9)"id="btn">9</button>
+            <button onclick="cal('/')"id="btn">/</button>
+        </div>
+        <div id="inbtn">
+            <button onclick="cal(6)"id="btn">6</button>
+            <button onclick="cal(5)"id="btn">5</button>
+            <button onclick="cal(4)"id="btn">4</button>
+            <button onclick="cal('*')"id="btn">*</button>
+        </div>
+        <div id="inbtn">
+            <button onclick="cal(3)"id="btn">3</button>
+            <button onclick="cal(2)"id="btn">2</button>
+            <button onclick="cal(1)"id="btn">1</button>
+            <button onclick="cal('-')"id="btn">-</button>
+        </div>
+        <div id="inbtn">
+            <button onclick="cal('.')"id="btn">.</button>
+            <button onclick="cal(0)"id="btn">0</button>
+            <button onclick="cal('+')"id="btn">+</button>
+            <button onclick="calculate('=')"id="btn">=</button>
+        </div>
+    </div>
+   </div>
+    
+</body>
+<script src="/calculator/cal.js"></script>
+</html>

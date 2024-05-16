@@ -34,7 +34,7 @@
     font-style: normal;
   }
 .banner_main{
-    background-image: url(/portfolio/banner.jpeg);
+    background-image: url(../portfolio/banner.jpeg);
     padding: 100px;
     background-size:cover;
     background-repeat: no-repeat;
